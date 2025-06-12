@@ -1,0 +1,311 @@
+{
+    "accountId": "e4feac59-d97d-431b-80cc-7cbfd6430f6b",
+    "dateOfBirth": "2001-06-08",
+    "employersData": [
+      {
+        "annual_base_pay": 31200,
+        "identity": {
+          "id": "13ceb7c8-dfea-3e4e-8450-30d90b5f72d0",
+          "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+          "base_pay": {
+            "amount": "15.00",
+            "period": "hourly",
+            "currency": "USD"
+          },
+          "employer": "HWC LLC",
+          "hire_date": "2024-10-11",
+          "marital_status": null,
+          "employment_type": "full-time",
+          "termination_date": null,
+          "employment_status": "active",
+          "original_hire_date": "2024-10-11",
+          "termination_reason": null
+        },
+        "paystubs": [
+          {
+            "id": "2a9fa8f9-d208-3824-a33a-cc6a6ca36956",
+            "taxes": "316.55",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1597.21",
+            "deductions": null,
+            "paystub_date": "2025-05-23T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-05-18T00:00:00Z",
+              "start_date": "2025-05-05T00:00:00Z"
+            },
+            "payroll_document": "01973c43-83b0-7ac6-9d65-59b698e5236a"
+          },
+          {
+            "id": "5c54ef70-a58e-30f2-bc8b-5a59a4ed4430",
+            "taxes": "415.27",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1996.50",
+            "deductions": null,
+            "paystub_date": "2025-05-09T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-05-04T00:00:00Z",
+              "start_date": "2025-04-21T00:00:00Z"
+            },
+            "payroll_document": "01973c43-db72-1bda-f8bb-b9348a9d36f7"
+          },
+          {
+            "id": "1afaf4f0-44c7-3141-9dd1-729d93f64722",
+            "taxes": "322.49",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1621.28",
+            "deductions": null,
+            "paystub_date": "2025-04-25T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-04-20T00:00:00Z",
+              "start_date": "2025-04-07T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dbaa-d262-a291-95f0681d5897"
+          },
+          {
+            "id": "3c7cc5ad-473e-3f11-8892-163b58c498e2",
+            "taxes": "267.01",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1396.88",
+            "deductions": null,
+            "paystub_date": "2025-04-11T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-04-06T00:00:00Z",
+              "start_date": "2025-03-24T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dbe9-52ad-d3db-80cc06c271f8"
+          },
+          {
+            "id": "5fd5d332-777d-37a0-aff9-bb42c5bfb6d4",
+            "taxes": "237.18",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1276.21",
+            "deductions": null,
+            "paystub_date": "2025-03-28T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-03-23T00:00:00Z",
+              "start_date": "2025-03-10T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dc24-7ce9-7c50-a4bb9cee1743"
+          },
+          {
+            "id": "8c83e210-ba31-3a97-ab89-5eebf8cd55a0",
+            "taxes": "328.65",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1646.18",
+            "deductions": null,
+            "paystub_date": "2025-03-14T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-03-09T00:00:00Z",
+              "start_date": "2025-02-24T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dc58-bfd9-c36a-91231caf27a6"
+          },
+          {
+            "id": "dca7ec22-faf8-36fc-8028-62b0d906cf54",
+            "taxes": "209.94",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1166.18",
+            "deductions": null,
+            "paystub_date": "2025-02-28T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-02-23T00:00:00Z",
+              "start_date": "2025-02-10T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dc98-7c03-af69-30b4bd42fecf"
+          },
+          {
+            "id": "b1a0e404-b3f9-338c-8f84-343afe8a9c10",
+            "taxes": "235.99",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1271.41",
+            "deductions": null,
+            "paystub_date": "2025-02-14T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-02-09T00:00:00Z",
+              "start_date": "2025-01-27T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dcd1-c75d-abba-1ffab3815639"
+          },
+          {
+            "id": "e17de97c-fff7-30f8-8088-7da3a7727a02",
+            "taxes": "199.75",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1124.86",
+            "deductions": null,
+            "paystub_date": "2025-01-31T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-01-26T00:00:00Z",
+              "start_date": "2025-01-13T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dd03-b684-da00-cbbda086fc9e"
+          },
+          {
+            "id": "2c3cde8f-cc79-3c4d-912e-e043e488571a",
+            "taxes": "351.01",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1736.63",
+            "deductions": null,
+            "paystub_date": "2025-01-17T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2025-01-12T00:00:00Z",
+              "start_date": "2024-12-30T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dd37-4fb1-bcdd-5fe1ea43b421"
+          },
+          {
+            "id": "99c71698-7831-3075-845f-a9ee5453f436",
+            "taxes": "285.17",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1470.30",
+            "deductions": null,
+            "paystub_date": "2025-01-03T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2024-12-29T00:00:00Z",
+              "start_date": "2024-12-16T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dd6b-6651-b7f7-c2c661b3fd3d"
+          },
+          {
+            "id": "838466a3-1bc2-3a5a-89d3-33d4b229dc84",
+            "taxes": "264.00",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1376.18",
+            "deductions": null,
+            "paystub_date": "2024-12-20T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2024-12-15T00:00:00Z",
+              "start_date": "2024-12-02T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dda1-dbff-6933-57df51f3dfa0"
+          },
+          {
+            "id": "a8f37286-c522-3549-b60b-832cfa538b12",
+            "taxes": "235.87",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1262.40",
+            "deductions": null,
+            "paystub_date": "2024-12-06T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2024-12-01T00:00:00Z",
+              "start_date": "2024-11-18T00:00:00Z"
+            },
+            "payroll_document": "01973c43-dde0-a6c4-2f02-3c9603592a5e"
+          },
+          {
+            "id": "7f854ddb-f811-35a8-a728-69caa5867211",
+            "taxes": "274.84",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1420.06",
+            "deductions": null,
+            "paystub_date": "2024-11-22T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2024-11-17T00:00:00Z",
+              "start_date": "2024-11-04T00:00:00Z"
+            },
+            "payroll_document": "01973c43-de18-72c5-a498-4c2629d1916d"
+          },
+          {
+            "id": "26712125-1816-39a0-91cb-b441a71729a0",
+            "taxes": "199.20",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "1114.13",
+            "deductions": null,
+            "paystub_date": "2024-11-08T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2024-11-03T00:00:00Z",
+              "start_date": "2024-10-21T00:00:00Z"
+            },
+            "payroll_document": "01973c43-de4b-266b-2713-ef5b82bc494c"
+          },
+          {
+            "id": "fa6ec20c-e031-37d6-a850-5ca9c1f6d9df",
+            "taxes": "166.46",
+            "status": "completed",
+            "account": "01973c41-ed81-9b41-be7b-b02aa1a22f1a",
+            "currency": "USD",
+            "gross_pay": "979.50",
+            "deductions": null,
+            "paystub_date": "2024-10-25T00:00:00Z",
+            "paystub_period": {
+              "end_date": "2024-10-20T00:00:00Z",
+              "start_date": "2024-10-07T00:00:00Z"
+            },
+            "payroll_document": "01973c43-de7f-e7c3-11de-d6bdeb4d34b2"
+          }
+        ]
+      }
+    ],
+    "bankAccount": {
+      "id": 809,
+      "account_id": "e4feac59-d97d-431b-80cc-7cbfd6430f6b",
+      "stripe_financial_connection_account_id": "fca_1RWMLqRvnJQt6Z8tzs6FOy4Q",
+      "balance": 2.27,
+      "next_balance_refresh_available_at": "2025-06-04T18:47:50.000Z",
+      "balance_status": "complete",
+      "account_type": "cash",
+      "created_at": "2025-06-04T18:48:44.559Z",
+      "updated_at": "2025-06-04T18:48:44.559Z"
+    },
+    "primaryDriverEligibility": {
+      "id": 76719,
+      "decision": "step_up_required",
+      "pricing_limit": 575,
+      "is_eligible_for_new_vehicle": false,
+      "pricing_tier": "tier_16",
+      "deposit_amount": 500,
+      "expires_at": "2025-07-04T19:18:19.713Z",
+      "reported_on": "2025-06-04",
+      "credit_score": 489,
+      "override": false,
+      "flex_score": 947,
+      "tr_error": false,
+      "risk_inform": 0,
+      "id_theft": 0,
+      "account_id": "e4feac59-d97d-431b-80cc-7cbfd6430f6b",
+      "created_at": "2025-03-15T21:41:51.606Z",
+      "updated_at": "2025-06-04T19:18:19.727Z",
+      "total_debt_load": 0,
+      "eligibility_factors": [
+        "Lack of real estate secured loan information",
+        "No open bankcards in your credit file",
+        "Too many recent delinquencies",
+        "Average time since accounts opened is too recent"
+      ],
+      "string": [],
+      "predicted_pricing_tier": "tier_12",
+      "last_pricing_location_id": "new-england",
+      "step_up_completed": false,
+      "is_eligible_for_new_high_value_vehicle": null
+    },
+    "employerDocuments": null
+  }
