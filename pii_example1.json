@@ -1,1 +1,2763 @@
-{\"integrations\":[{\"name\":\"Decision_Segment_DAI_4\",\"response\":{\"predicted_Decision_Segment\":\"C\",\"confidence\":1.0}},{\"name\":\"Equifax\",\"response\":{\"status\":\"completed\",\"consumers\":{\"equifaxUSConsumerCreditReport\":[{\"identifier\":\"Individual Report 1\",\"customerNumber\":\"178AZ11398\",\"consumerReferralCode\":\"148\",\"multipleReportIndicator\":\"F\",\"ECOAInquiryType\":\"I\",\"outputFormatCode\":\"T2\",\"hitCode\":{\"code\":\"1\"},\"fileSinceDate\":\"06032022\",\"lastActivityDate\":\"08082023\",\"reportDate\":\"10262023\",\"subjectName\":{\"firstName\":\"SHASHANK\",\"lastName\":\"MISHRA\"},\"subjectSocialNum\":\"857264818\",\"birthDate\":\"12211991\",\"addressDiscrepancyIndicator\":\"N\",\"addresses\":[{\"addressType\":\"current\",\"houseNumber\":\"2\",\"streetName\":\"KIMBALL\",\"streetType\":\"CT APT 405\",\"cityName\":\"WOBURN\",\"stateAbbreviation\":\"MA\",\"zipCode\":\"01801\",\"sourceOfAddress\":{\"code\":\"T\"},\"addressLine1\":\"2 KIMBALL CT APT 405\"},{\"addressType\":\"former\",\"houseNumber\":\"831\",\"streetName\":\"MAIN\",\"streetType\":\"ST RM NO125\",\"cityName\":\"WOBURN\",\"stateAbbreviation\":\"MA\",\"zipCode\":\"01801\",\"sourceOfAddress\":{\"code\":\"T\"},\"addressLine1\":\"831 MAIN ST RM NO125\"}],\"trades\":[{\"customerNumber\":\"239ON00010\",\"automatedUpdateIndicator\":\"*\",\"monthsReviewed\":\"16\",\"accountDesignator\":{\"code\":\"I\"},\"customerName\":\"ZOLVECFSB\",\"dateReported\":\"092023\",\"dateOpened\":\"052022\",\"highCredit\":7600,\"balance\":762,\"rate\":{\"code\":1},\"narrativeCodes\":[{\"code\":\"FE\"},{\"code\":\"AZ\"}],\"rawNarrativeCodes\":[\"FE\",\"AZ\"],\"lastActivityDate\":\"092023\"},{\"customerNumber\":\"668DC04698\",\"automatedUpdateIndicator\":\"*\",\"monthsReviewed\":\"12\",\"accountDesignator\":{\"code\":\"I\"},\"customerName\":\"KOHLS/CAP1\",\"dateReported\":\"102023\",\"dateOpened\":\"102022\",\"highCredit\":800,\"balance\":0,\"rate\":{\"code\":1},\"narrativeCodes\":[{\"code\":\"AV\"},{\"code\":\"AZ\"}],\"rawNarrativeCodes\":[\"AV\",\"AZ\"],\"lastActivityDate\":\"122022\"},{\"customerNumber\":\"402BB48257\",\"automatedUpdateIndicator\":\"*\",\"monthsReviewed\":\"10\",\"accountDesignator\":{\"code\":\"I\"},\"customerName\":\"AMEX\",\"dateReported\":\"092023\",\"dateOpened\":\"102022\",\"highCredit\":5000,\"balance\":493,\"rate\":{\"code\":1},\"narrativeCodes\":[{\"code\":\"FE\"},{\"code\":\"AZ\"}],\"rawNarrativeCodes\":[\"FE\",\"AZ\"],\"lastActivityDate\":\"092023\"}],\"models\":[{\"type\":\"MODEL\",\"modelNumber\":\"05402\",\"score\":798,\"reasons\":[{\"code\":\"00068\"},{\"code\":\"00028\"},{\"code\":\"00025\"},{\"code\":\"00032\"}],\"modelIDOrScorecard\":\"7\",\"scoreNumberOrMarketMaxIndustryCode\":{\"code\":\"1\"}},{\"type\":\"MODEL\",\"modelNumber\":\"05637\",\"score\":0,\"modelIDOrScorecard\":\"0\",\"scoreNumberOrMarketMaxIndustryCode\":{\"code\":\"1\"}},{\"type\":\"MODEL\",\"modelNumber\":\"05149\",\"score\":0,\"modelIDOrScorecard\":\"1\",\"scoreNumberOrMarketMaxIndustryCode\":{\"code\":\"1\"}}],\"identification\":{\"subjectSocialNum\":\"857264818\",\"inquirySocialNum\":\"857264818\"},\"attributes\":[{\"modelNumber\":\"05637\"},{\"modelNumber\":\"05149\",\"attributes\":[{\"identifier\":\"6001\",\"value\":\"000000000\"},{\"identifier\":\"6002\",\"value\":\"000000000\"},{\"identifier\":\"6003\",\"value\":\"000000000\"},{\"identifier\":\"6004\",\"value\":\"000000004\"},{\"identifier\":\"6005\",\"value\":\"000000033\"},{\"identifier\":\"6006\",\"value\":\"000000033\"},{\"identifier\":\"6007\",\"value\":\"000000029\"},{\"identifier\":\"6008\",\"value\":\"000000028\"},{\"identifier\":\"6009\",\"value\":\"000000083\"},{\"identifier\":\"6010\",\"value\":\"000000083\"},{\"identifier\":\"6011\",\"value\":\"000000067\"},{\"identifier\":\"6012\",\"value\":\"000000078\"},{\"identifier\":\"6013\",\"value\":\"000000078\"},{\"identifier\":\"6014\",\"value\":\"000000064\"},{\"identifier\":\"6015\",\"value\":\"000000100\"},{\"identifier\":\"6016\",\"value\":\"000000000\"},{\"identifier\":\"6017\",\"value\":\"000000000\"},{\"identifier\":\"6018\",\"value\":\"000000000\"},{\"identifier\":\"6019\",\"value\":\"000000000\"},{\"identifier\":\"6020\",\"value\":\"000000000\"},{\"identifier\":\"6021\",\"value\":\"000000000\"},{\"identifier\":\"6022\",\"value\":\"000000000\"},{\"identifier\":\"6023\",\"value\":\"000000000\"},{\"identifier\":\"6024\",\"value\":\"000000100\"},{\"identifier\":\"6025\",\"value\":\"000000100\"},{\"identifier\":\"6026\",\"value\":\"000000100\"},{\"identifier\":\"6027\",\"value\":\"000000100\"},{\"identifier\":\"6028\",\"value\":\"000000100\"},{\"identifier\":\"6029\",\"value\":\"000000100\"},{\"identifier\":\"6030\",\"value\":\"000000100\"},{\"identifier\":\"6031\",\"value\":\"000000100\"},{\"identifier\":\"6032\",\"value\":\"000000100\"},{\"identifier\":\"6033\",\"value\":\"000000100\"},{\"identifier\":\"6034\",\"value\":\"000000998\"},{\"identifier\":\"6035\",\"value\":\"000000998\"},{\"identifier\":\"6036\",\"value\":\"000000998\"},{\"identifier\":\"6037\",\"value\":\"000000998\"},{\"identifier\":\"6038\",\"value\":\"000000998\"},{\"identifier\":\"6039\",\"value\":\"000000000\"},{\"identifier\":\"6040\",\"value\":\"000000000\"},{\"identifier\":\"6041\",\"value\":\"000000000\"},{\"identifier\":\"6042\",\"value\":\"000000000\"},{\"identifier\":\"6043\",\"value\":\"000000000\"},{\"identifier\":\"6044\",\"value\":\"000000060\"},{\"identifier\":\"6045\",\"value\":\"000000056\"},{\"identifier\":\"6046\",\"value\":\"000000076\"},{\"identifier\":\"6047\",\"value\":\"000000100\"},{\"identifier\":\"6048\",\"value\":\"000000075\"},{\"identifier\":\"6049\",\"value\":\"000000063\"},{\"identifier\":\"6050\",\"value\":\"000000086\"},{\"identifier\":\"6051\",\"value\":\"000000100\"},{\"identifier\":\"6052\",\"value\":\"000000000\"},{\"identifier\":\"6053\",\"value\":\"000000000\"},{\"identifier\":\"6054\",\"value\":\"000000000\"},{\"identifier\":\"6055\",\"value\":\"000000000\"},{\"identifier\":\"6056\",\"value\":\"000000058\"},{\"identifier\":\"6057\",\"value\":\"000000000\"},{\"identifier\":\"6058\",\"value\":\"000000001\"},{\"identifier\":\"6059\",\"value\":\"000000096\"},{\"identifier\":\"6060\",\"value\":\"000009998\"},{\"identifier\":\"6061\",\"value\":\"000000000\"},{\"identifier\":\"6062\",\"value\":\"000000000\"},{\"identifier\":\"6063\",\"value\":\"000000000\"},{\"identifier\":\"6064\",\"value\":\"000000996\"},{\"identifier\":\"6065\",\"value\":\"000000996\"},{\"identifier\":\"6066\",\"value\":\"000000996\"},{\"identifier\":\"6067\",\"value\":\"000009998\"},{\"identifier\":\"6068\",\"value\":\"000000001\"},{\"identifier\":\"6069\",\"value\":\"000000002-\"},{\"identifier\":\"6070\",\"value\":\"000000001\"},{\"identifier\":\"6071\",\"value\":\"000000000\"},{\"identifier\":\"6072\",\"value\":\"000000022-\"},{\"identifier\":\"6073\",\"value\":\"000000000\"},{\"identifier\":\"6074\",\"value\":\"000000013-\"},{\"identifier\":\"6075\",\"value\":\"000009998\"},{\"identifier\":\"6076\",\"value\":\"000000000\"},{\"identifier\":\"6077\",\"value\":\"000000000\"},{\"identifier\":\"6078\",\"value\":\"000000000\"},{\"identifier\":\"6079\",\"value\":\"000000996\"},{\"identifier\":\"6080\",\"value\":\"000000996\"},{\"identifier\":\"6081\",\"value\":\"000000996\"},{\"identifier\":\"6082\",\"value\":\"000009998\"},{\"identifier\":\"6083\",\"value\":\"000000000\"},{\"identifier\":\"6084\",\"value\":\"000000000\"},{\"identifier\":\"6085\",\"value\":\"000000002-\"},{\"identifier\":\"6086\",\"value\":\"000000996\"},{\"identifier\":\"6087\",\"value\":\"000009998\"},{\"identifier\":\"6088\",\"value\":\"000000000\"},{\"identifier\":\"6089\",\"value\":\"000000013-\"},{\"identifier\":\"6090\",\"value\":\"000000010\"},{\"identifier\":\"6091\",\"value\":\"000000000\"},{\"identifier\":\"6092\",\"value\":\"000009998\"},{\"identifier\":\"6093\",\"value\":\"000000001\"},{\"identifier\":\"6094\",\"value\":\"000000083-\"},{\"identifier\":\"6095\",\"value\":\"000000008-\"},{\"identifier\":\"6096\",\"value\":\"000000013\"},{\"identifier\":\"6097\",\"value\":\"000000468\"},{\"identifier\":\"6098\",\"value\":\"000099995\"},{\"identifier\":\"6099\",\"value\":\"000000000\"},{\"identifier\":\"6100\",\"value\":\"000000000\"},{\"identifier\":\"6101\",\"value\":\"000099998\"},{\"identifier\":\"6102\",\"value\":\"000000008\"},{\"identifier\":\"6103\",\"value\":\"000000995\"},{\"identifier\":\"6104\",\"value\":\"000000000\"},{\"identifier\":\"6105\",\"value\":\"000000000\"},{\"identifier\":\"6106\",\"value\":\"000000995\"},{\"identifier\":\"6107\",\"value\":\"000000077-\"},{\"identifier\":\"6108\",\"value\":\"000099995\"},{\"identifier\":\"6109\",\"value\":\"000000000\"},{\"identifier\":\"6110\",\"value\":\"000009995\"},{\"identifier\":\"6111\",\"value\":\"000099998\"},{\"identifier\":\"6112\",\"value\":\"000000995\"},{\"identifier\":\"6113\",\"value\":\"000000996\"},{\"identifier\":\"6114\",\"value\":\"000000001\"},{\"identifier\":\"6115\",\"value\":\"000000001-\"},{\"identifier\":\"6116\",\"value\":\"000000002\"},{\"identifier\":\"6117\",\"value\":\"000000003\"},{\"identifier\":\"6118\",\"value\":\"000000995\"},{\"identifier\":\"6119\",\"value\":\"000000024-\"},{\"identifier\":\"6120\",\"value\":\"000009995\"},{\"identifier\":\"6121\",\"value\":\"000000310-\"},{\"identifier\":\"6122\",\"value\":\"000099995\"},{\"identifier\":\"6123\",\"value\":\"000000203\"},{\"identifier\":\"6124\",\"value\":\"000099995\"},{\"identifier\":\"6125\",\"value\":\"000000000\"},{\"identifier\":\"6126\",\"value\":\"000099998\"},{\"identifier\":\"6127\",\"value\":\"000000096\"},{\"identifier\":\"6128\",\"value\":\"000000996\"},{\"identifier\":\"6129\",\"value\":\"000000000\"},{\"identifier\":\"6130\",\"value\":\"000000004\"},{\"identifier\":\"6131\",\"value\":\"000000003\"},{\"identifier\":\"6132\",\"value\":\"000000258-\"},{\"identifier\":\"6133\",\"value\":\"000000998\"},{\"identifier\":\"6134\",\"value\":\"000009995\"},{\"identifier\":\"6135\",\"value\":\"000000012\"},{\"identifier\":\"6136\",\"value\":\"000000052\"},{\"identifier\":\"6137\",\"value\":\"000000995\"},{\"identifier\":\"6138\",\"value\":\"000009995\"},{\"identifier\":\"6139\",\"value\":\"000009995\"},{\"identifier\":\"6140\",\"value\":\"000009996\"},{\"identifier\":\"6141\",\"value\":\"000000000\"},{\"identifier\":\"6142\",\"value\":\"000000995\"},{\"identifier\":\"6143\",\"value\":\"000000998\"},{\"identifier\":\"6144\",\"value\":\"000001872\"},{\"identifier\":\"6145\",\"value\":\"000000050\"},{\"identifier\":\"6146\",\"value\":\"000000169\"},{\"identifier\":\"6147\",\"value\":\"000001872\"},{\"identifier\":\"6148\",\"value\":\"000000370\"},{\"identifier\":\"6149\",\"value\":\"000000050\"},{\"identifier\":\"6150\",\"value\":\"000099998\"},{\"identifier\":\"6151\",\"value\":\"000000011\"},{\"identifier\":\"6152\",\"value\":\"000000008-\"},{\"identifier\":\"6153\",\"value\":\"000000998\"},{\"identifier\":\"6154\",\"value\":\"000000998\"},{\"identifier\":\"6155\",\"value\":\"000009995\"},{\"identifier\":\"6156\",\"value\":\"000000000\"},{\"identifier\":\"6157\",\"value\":\"000000996\"},{\"identifier\":\"6158\",\"value\":\"000000000\"},{\"identifier\":\"6159\",\"value\":\"000000995\"},{\"identifier\":\"6160\",\"value\":\"000000998\"},{\"identifier\":\"6161\",\"value\":\"000000011\"},{\"identifier\":\"6162\",\"value\":\"000000008-\"},{\"identifier\":\"6163\",\"value\":\"000099998\"},{\"identifier\":\"6164\",\"value\":\"000000195\"},{\"identifier\":\"6165\",\"value\":\"000000998\"},{\"identifier\":\"6166\",\"value\":\"000000998\"},{\"identifier\":\"6167\",\"value\":\"000000006\"},{\"identifier\":\"6168\",\"value\":\"000009995\"},{\"identifier\":\"6169\",\"value\":\"000009995\"},{\"identifier\":\"6170\",\"value\":\"000000996\"},{\"identifier\":\"6171\",\"value\":\"000000090\"},{\"identifier\":\"6172\",\"value\":\"000000090\"},{\"identifier\":\"6173\",\"value\":\"000009994\"},{\"identifier\":\"6174\",\"value\":\"000009995\"},{\"identifier\":\"6175\",\"value\":\"000000000\"},{\"identifier\":\"6176\",\"value\":\"000000274\"},{\"identifier\":\"6177\",\"value\":\"000000800\"},{\"identifier\":\"6178\",\"value\":\"000009996\"},{\"identifier\":\"6179\",\"value\":\"000000014\"},{\"identifier\":\"6180\",\"value\":\"000000014\"},{\"identifier\":\"6181\",\"value\":\"000000014\"},{\"identifier\":\"6182\",\"value\":\"000000036\"},{\"identifier\":\"6183\",\"value\":\"000000014\"},{\"identifier\":\"6184\",\"value\":\"000007600\"},{\"identifier\":\"6185\",\"value\":\"000007600\"},{\"identifier\":\"6186\",\"value\":\"000000800\"},{\"identifier\":\"6187\",\"value\":\"000000626\"},{\"identifier\":\"6188\",\"value\":\"000000635\"},{\"identifier\":\"6189\",\"value\":\"000000635\"},{\"identifier\":\"6190\",\"value\":\"000000635\"},{\"identifier\":\"6191\",\"value\":\"000000040\"},{\"identifier\":\"6192\",\"value\":\"000000040\"},{\"identifier\":\"6193\",\"value\":\"000000029\"},{\"identifier\":\"6194\",\"value\":\"000000996\"},{\"identifier\":\"6195\",\"value\":\"000000213\"},{\"identifier\":\"6196\",\"value\":\"000005000\"},{\"identifier\":\"6197\",\"value\":\"000000800\"},{\"identifier\":\"6198\",\"value\":\"000009996\"},{\"identifier\":\"6199\",\"value\":\"000000013\"},{\"identifier\":\"6200\",\"value\":\"000000013\"},{\"identifier\":\"6201\",\"value\":\"000000013\"},{\"identifier\":\"6202\",\"value\":\"000000013\"},{\"identifier\":\"6203\",\"value\":\"000001275\"},{\"identifier\":\"6204\",\"value\":\"000999998\"},{\"identifier\":\"6205\",\"value\":\"000000197\"},{\"identifier\":\"6206\",\"value\":\"000004975\"},{\"identifier\":\"6207\",\"value\":\"000001692\"},{\"identifier\":\"6208\",\"value\":\"000000213\"},{\"identifier\":\"6209\",\"value\":\"000000074\"},{\"identifier\":\"6210\",\"value\":\"000002749\"},{\"identifier\":\"6211\",\"value\":\"000000213\"},{\"identifier\":\"6212\",\"value\":\"000006300\"},{\"identifier\":\"6213\",\"value\":\"000000800\"},{\"identifier\":\"6214\",\"value\":\"000009996\"},{\"identifier\":\"6215\",\"value\":\"000009996\"},{\"identifier\":\"6216\",\"value\":\"000009998\"},{\"identifier\":\"6217\",\"value\":\"000009998\"},{\"identifier\":\"6218\",\"value\":\"000000013\"},{\"identifier\":\"6219\",\"value\":\"000000013\"},{\"identifier\":\"6220\",\"value\":\"000000024\"},{\"identifier\":\"6221\",\"value\":\"000001992\"},{\"identifier\":\"6222\",\"value\":\"000000186\"},{\"identifier\":\"6223\",\"value\":\"000009996\"},{\"identifier\":\"6224\",\"value\":\"000005866\"},{\"identifier\":\"6225\",\"value\":\"000006034\"},{\"identifier\":\"6226\",\"value\":\"000004281\"},{\"identifier\":\"6227\",\"value\":\"000004458\"},{\"identifier\":\"6228\",\"value\":\"000000532\"},{\"identifier\":\"6229\",\"value\":\"000009996\"},{\"identifier\":\"6230\",\"value\":\"000009996\"},{\"identifier\":\"6231\",\"value\":\"000099998\"},{\"identifier\":\"6232\",\"value\":\"000000009\"},{\"identifier\":\"6233\",\"value\":\"000000007\"},{\"identifier\":\"6234\",\"value\":\"000000007\"},{\"identifier\":\"6235\",\"value\":\"000000007\"},{\"identifier\":\"6236\",\"value\":\"000009996\"},{\"identifier\":\"6237\",\"value\":\"000006514\"},{\"identifier\":\"6238\",\"value\":\"000000000\"},{\"identifier\":\"6239\",\"value\":\"000000000\"},{\"identifier\":\"6240\",\"value\":\"000000000\"},{\"identifier\":\"6241\",\"value\":\"000999998\"},{\"identifier\":\"6242\",\"value\":\"000000025\"},{\"identifier\":\"6243\",\"value\":\"000000025\"},{\"identifier\":\"6244\",\"value\":\"000000800\"},{\"identifier\":\"6245\",\"value\":\"000009996\"},{\"identifier\":\"6246\",\"value\":\"000009996\"},{\"identifier\":\"6247\",\"value\":\"000009998\"},{\"identifier\":\"6248\",\"value\":\"000000000\"},{\"identifier\":\"6249\",\"value\":\"000004365\"},{\"identifier\":\"6250\",\"value\":\"000000029\"},{\"identifier\":\"6251\",\"value\":\"000000685\"},{\"identifier\":\"6252\",\"value\":\"000000685\"},{\"identifier\":\"6253\",\"value\":\"000006300\"},{\"identifier\":\"6254\",\"value\":\"000004467\"},{\"identifier\":\"6255\",\"value\":\"000000800\"},{\"identifier\":\"6256\",\"value\":\"000009996\"},{\"identifier\":\"6257\",\"value\":\"000000006\"},{\"identifier\":\"6258\",\"value\":\"000000004\"},{\"identifier\":\"6259\",\"value\":\"000000004\"},{\"identifier\":\"6260\",\"value\":\"000000000\"},{\"identifier\":\"6261\",\"value\":\"000000000\"},{\"identifier\":\"6262\",\"value\":\"000000996\"},{\"identifier\":\"6263\",\"value\":\"000005440\"},{\"identifier\":\"6264\",\"value\":\"000003268\"},{\"identifier\":\"6265\",\"value\":\"000000034\"},{\"identifier\":\"6266\",\"value\":\"000000889\"},{\"identifier\":\"6267\",\"value\":\"000007600\"},{\"identifier\":\"6268\",\"value\":\"000009996\"},{\"identifier\":\"6269\",\"value\":\"000000011\"},{\"identifier\":\"6270\",\"value\":\"000000010\"},{\"identifier\":\"6271\",\"value\":\"000000011\"},{\"identifier\":\"6272\",\"value\":\"000000127\"},{\"identifier\":\"6273\",\"value\":\"000009996\"},{\"identifier\":\"6274\",\"value\":\"000000800\"},{\"identifier\":\"6275\",\"value\":\"000000271\"},{\"identifier\":\"6276\",\"value\":\"000000034\"},{\"identifier\":\"6277\",\"value\":\"000000029\"},{\"identifier\":\"6278\",\"value\":\"000005000\"},{\"identifier\":\"6279\",\"value\":\"000005000\"},{\"identifier\":\"6280\",\"value\":\"000005000\"},{\"identifier\":\"6281\",\"value\":\"000000800\"},{\"identifier\":\"6282\",\"value\":\"000009996\"},{\"identifier\":\"6283\",\"value\":\"000000996\"},{\"identifier\":\"6284\",\"value\":\"000000007\"},{\"identifier\":\"6285\",\"value\":\"000000005\"},{\"identifier\":\"6286\",\"value\":\"000000004\"},{\"identifier\":\"6287\",\"value\":\"000000996\"},{\"identifier\":\"6288\",\"value\":\"000009996\"},{\"identifier\":\"6289\",\"value\":\"000004629\"},{\"identifier\":\"6290\",\"value\":\"000004707\"},{\"identifier\":\"6291\",\"value\":\"000004730\"},{\"identifier\":\"6292\",\"value\":\"000000766\"},{\"identifier\":\"6293\",\"value\":\"000000766\"},{\"identifier\":\"6294\",\"value\":\"000000766\"},{\"identifier\":\"6295\",\"value\":\"000000034\"},{\"identifier\":\"6296\",\"value\":\"000000029\"},{\"identifier\":\"6297\",\"value\":\"000000889\"},{\"identifier\":\"6298\",\"value\":\"000001145\"},{\"identifier\":\"6299\",\"value\":\"000000800\"},{\"identifier\":\"6300\",\"value\":\"000000800\"},{\"identifier\":\"6301\",\"value\":\"000000800\"},{\"identifier\":\"6302\",\"value\":\"000009998\"},{\"identifier\":\"6303\",\"value\":\"000099998\"},{\"identifier\":\"6304\",\"value\":\"000000009\"},{\"identifier\":\"6305\",\"value\":\"000000008\"},{\"identifier\":\"6306\",\"value\":\"000000008\"},{\"identifier\":\"6307\",\"value\":\"000000008\"},{\"identifier\":\"6308\",\"value\":\"000000007\"},{\"identifier\":\"6309\",\"value\":\"000000007\"},{\"identifier\":\"6310\",\"value\":\"000000801\"},{\"identifier\":\"6311\",\"value\":\"000000926\"},{\"identifier\":\"6312\",\"value\":\"000000131\"},{\"identifier\":\"6313\",\"value\":\"000000139\"},{\"identifier\":\"6314\",\"value\":\"000000139\"},{\"identifier\":\"6315\",\"value\":\"000009996\"},{\"identifier\":\"6316\",\"value\":\"000005730\"},{\"identifier\":\"6317\",\"value\":\"000005739\"},{\"identifier\":\"6318\",\"value\":\"000004082\"},{\"identifier\":\"6319\",\"value\":\"000003849\"},{\"identifier\":\"6320\",\"value\":\"000009996\"},{\"identifier\":\"6321\",\"value\":\"000004905\"},{\"identifier\":\"6322\",\"value\":\"000007209\"},{\"identifier\":\"6323\",\"value\":\"000010188\"},{\"identifier\":\"6324\",\"value\":\"000000385\"},{\"identifier\":\"6325\",\"value\":\"000009996\"},{\"identifier\":\"6326\",\"value\":\"000000407\"},{\"identifier\":\"6327\",\"value\":\"000000342\"},{\"identifier\":\"6328\",\"value\":\"000008886\"},{\"identifier\":\"6329\",\"value\":\"000013736\"},{\"identifier\":\"6330\",\"value\":\"000005942\"},{\"identifier\":\"6331\",\"value\":\"000004647\"},{\"identifier\":\"6332\",\"value\":\"000007072\"},{\"identifier\":\"6333\",\"value\":\"000099996\"},{\"identifier\":\"6334\",\"value\":\"000004905\"},{\"identifier\":\"6335\",\"value\":\"000000998\"},{\"identifier\":\"6336\",\"value\":\"000000000\"},{\"identifier\":\"6337\",\"value\":\"000000002\"},{\"identifier\":\"6338\",\"value\":\"000000002-\"},{\"identifier\":\"6339\",\"value\":\"000009998\"},{\"identifier\":\"6340\",\"value\":\"000000085-\"},{\"identifier\":\"6341\",\"value\":\"000000000\"},{\"identifier\":\"6342\",\"value\":\"000000001-\"},{\"identifier\":\"6343\",\"value\":\"000009998\"},{\"identifier\":\"6344\",\"value\":\"000000000\"},{\"identifier\":\"6345\",\"value\":\"000000000\"},{\"identifier\":\"6346\",\"value\":\"000000996\"},{\"identifier\":\"6347\",\"value\":\"000000065\"},{\"identifier\":\"6348\",\"value\":\"000000996\"},{\"identifier\":\"6349\",\"value\":\"000000000\"},{\"identifier\":\"6350\",\"value\":\"000000013\"},{\"identifier\":\"6351\",\"value\":\"000000006-\"},{\"identifier\":\"6352\",\"value\":\"000099995\"},{\"identifier\":\"6353\",\"value\":\"000000000\"},{\"identifier\":\"6354\",\"value\":\"000000194-\"},{\"identifier\":\"6355\",\"value\":\"000000194-\"},{\"identifier\":\"6356\",\"value\":\"000099998\"},{\"identifier\":\"6357\",\"value\":\"000099998\"},{\"identifier\":\"6358\",\"value\":\"000000995\"},{\"identifier\":\"6359\",\"value\":\"000009996\"},{\"identifier\":\"6360\",\"value\":\"000009996\"},{\"identifier\":\"6361\",\"value\":\"000099998\"},{\"identifier\":\"6362\",\"value\":\"000009995\"},{\"identifier\":\"6363\",\"value\":\"000099995\"},{\"identifier\":\"6364\",\"value\":\"000000995\"},{\"identifier\":\"6365\",\"value\":\"000009995\"},{\"identifier\":\"6366\",\"value\":\"000099995\"},{\"identifier\":\"6367\",\"value\":\"000009996\"},{\"identifier\":\"6368\",\"value\":\"000099995\"},{\"identifier\":\"6369\",\"value\":\"000099995\"},{\"identifier\":\"6370\",\"value\":\"000000005\"},{\"identifier\":\"6371\",\"value\":\"000000024-\"},{\"identifier\":\"6372\",\"value\":\"000999998\"},{\"identifier\":\"6373\",\"value\":\"000009995\"},{\"identifier\":\"6374\",\"value\":\"000009995\"},{\"identifier\":\"6375\",\"value\":\"000000194\"},{\"identifier\":\"6376\",\"value\":\"000099995\"},{\"identifier\":\"6377\",\"value\":\"000000050\"},{\"identifier\":\"6378\",\"value\":\"000000998\"},{\"identifier\":\"6379\",\"value\":\"000009995\"},{\"identifier\":\"6380\",\"value\":\"000000012\"},{\"identifier\":\"6381\",\"value\":\"000009995\"},{\"identifier\":\"6382\",\"value\":\"000009995\"},{\"identifier\":\"6383\",\"value\":\"000000011\"},{\"identifier\":\"6384\",\"value\":\"000000011\"},{\"identifier\":\"6385\",\"value\":\"000009995\"},{\"identifier\":\"6386\",\"value\":\"000001872\"},{\"identifier\":\"6387\",\"value\":\"000000998\"},{\"identifier\":\"6388\",\"value\":\"000009995\"},{\"identifier\":\"6389\",\"value\":\"000999998\"},{\"identifier\":\"6390\",\"value\":\"000000998\"},{\"identifier\":\"6391\",\"value\":\"000009995\"},{\"identifier\":\"6392\",\"value\":\"000009996\"},{\"identifier\":\"6393\",\"value\":\"000000000\"},{\"identifier\":\"6394\",\"value\":\"000009995\"},{\"identifier\":\"6395\",\"value\":\"000000000\"},{\"identifier\":\"6396\",\"value\":\"000000000\"},{\"identifier\":\"6397\",\"value\":\"000000000\"},{\"identifier\":\"6398\",\"value\":\"000009995\"},{\"identifier\":\"6399\",\"value\":\"000000057\"},{\"identifier\":\"6400\",\"value\":\"000009994\"},{\"identifier\":\"6401\",\"value\":\"000009996\"},{\"identifier\":\"6402\",\"value\":\"000000020-\"},{\"identifier\":\"6403\",\"value\":\"000009995\"},{\"identifier\":\"6404\",\"value\":\"000000532\"},{\"identifier\":\"6405\",\"value\":\"000099998\"},{\"identifier\":\"6406\",\"value\":\"000000007\"},{\"identifier\":\"6407\",\"value\":\"000000000\"},{\"identifier\":\"6408\",\"value\":\"000000000\"},{\"identifier\":\"6409\",\"value\":\"000000567\"},{\"identifier\":\"6410\",\"value\":\"000000998\"},{\"identifier\":\"6411\",\"value\":\"000004851\"},{\"identifier\":\"6412\",\"value\":\"000000074\"},{\"identifier\":\"6413\",\"value\":\"000001145\"},{\"identifier\":\"6414\",\"value\":\"000009996\"},{\"identifier\":\"6415\",\"value\":\"000099998\"},{\"identifier\":\"6416\",\"value\":\"000000013\"},{\"identifier\":\"6417\",\"value\":\"000000139\"},{\"identifier\":\"6418\",\"value\":\"000000040\"},{\"identifier\":\"6419\",\"value\":\"000000094\"},{\"identifier\":\"6420\",\"value\":\"000099998\"},{\"identifier\":\"6421\",\"value\":\"000009996\"},{\"identifier\":\"6422\",\"value\":\"000000013\"},{\"identifier\":\"6423\",\"value\":\"000004975\"},{\"identifier\":\"6424\",\"value\":\"000007093\"},{\"identifier\":\"6425\",\"value\":\"000000040\"},{\"identifier\":\"6426\",\"value\":\"000000038\"},{\"identifier\":\"6427\",\"value\":\"000000038\"},{\"identifier\":\"6428\",\"value\":\"000000996\"},{\"identifier\":\"6429\",\"value\":\"000006071\"},{\"identifier\":\"6430\",\"value\":\"000000007\"},{\"identifier\":\"6431\",\"value\":\"000000006\"},{\"identifier\":\"6432\",\"value\":\"000000008\"},{\"identifier\":\"6433\",\"value\":\"000002460\"},{\"identifier\":\"6434\",\"value\":\"000012600\"},{\"identifier\":\"6435\",\"value\":\"000012600\"},{\"identifier\":\"6436\",\"value\":\"000000800\"},{\"identifier\":\"6437\",\"value\":\"000009996\"},{\"identifier\":\"6438\",\"value\":\"000009996\"},{\"identifier\":\"6439\",\"value\":\"000009996\"},{\"identifier\":\"6440\",\"value\":\"000009996\"},{\"identifier\":\"6441\",\"value\":\"000009996\"},{\"identifier\":\"6442\",\"value\":\"000009998\"},{\"identifier\":\"6443\",\"value\":\"000001275\"},{\"identifier\":\"6444\",\"value\":\"000099998\"},{\"identifier\":\"6445\",\"value\":\"000011912\"},{\"identifier\":\"6446\",\"value\":\"000012712\"},{\"identifier\":\"6447\",\"value\":\"000000800\"},{\"identifier\":\"6448\",\"value\":\"000000800\"},{\"identifier\":\"6449\",\"value\":\"000000108\"},{\"identifier\":\"6450\",\"value\":\"000000685\"},{\"identifier\":\"6451\",\"value\":\"000000685\"},{\"identifier\":\"6452\",\"value\":\"000009996\"},{\"identifier\":\"6453\",\"value\":\"000012600\"},{\"identifier\":\"6454\",\"value\":\"000007600\"},{\"identifier\":\"6455\",\"value\":\"000009996\"},{\"identifier\":\"6456\",\"value\":\"000000567\"},{\"identifier\":\"6457\",\"value\":\"000099998\"},{\"identifier\":\"6458\",\"value\":\"000999998\"},{\"identifier\":\"6459\",\"value\":\"000999998\"},{\"identifier\":\"6460\",\"value\":\"000000118\"},{\"identifier\":\"6461\",\"value\":\"000001145\"},{\"identifier\":\"6462\",\"value\":\"000000962\"},{\"identifier\":\"6463\",\"value\":\"000009996\"},{\"identifier\":\"6464\",\"value\":\"000010541\"},{\"identifier\":\"6465\",\"value\":\"000009996\"},{\"identifier\":\"6466\",\"value\":\"000009996\"},{\"identifier\":\"6467\",\"value\":\"000009996\"},{\"identifier\":\"6468\",\"value\":\"000009996\"},{\"identifier\":\"6469\",\"value\":\"000009998\"},{\"identifier\":\"6470\",\"value\":\"000009998\"},{\"identifier\":\"6471\",\"value\":\"000000996\"},{\"identifier\":\"6472\",\"value\":\"000010784\"},{\"identifier\":\"6473\",\"value\":\"000000800\"},{\"identifier\":\"6474\",\"value\":\"000000766\"},{\"identifier\":\"6475\",\"value\":\"000003849\"},{\"identifier\":\"6476\",\"value\":\"000003849\"},{\"identifier\":\"6477\",\"value\":\"000009293\"},{\"identifier\":\"6478\",\"value\":\"000014143\"},{\"identifier\":\"6479\",\"value\":\"000099996\"},{\"identifier\":\"6480\",\"value\":\"000099996\"},{\"identifier\":\"6481\",\"value\":\"000007209\"},{\"identifier\":\"6482\",\"value\":\"000099996\"},{\"identifier\":\"6483\",\"value\":\"000002749\"},{\"identifier\":\"6484\",\"value\":\"000000013\"},{\"identifier\":\"6485\",\"value\":\"000000013\"},{\"identifier\":\"6486\",\"value\":\"000000013\"},{\"identifier\":\"6487\",\"value\":\"000000013\"},{\"identifier\":\"6488\",\"value\":\"000000036\"},{\"identifier\":\"6489\",\"value\":\"000000009\"},{\"identifier\":\"6490\",\"value\":\"000001992\"},{\"identifier\":\"6491\",\"value\":\"000004177\"},{\"identifier\":\"6492\",\"value\":\"000000630\"},{\"identifier\":\"6493\",\"value\":\"000009996\"},{\"identifier\":\"6494\",\"value\":\"000006300\"},{\"identifier\":\"6495\",\"value\":\"000004200\"},{\"identifier\":\"6496\",\"value\":\"000000800\"},{\"identifier\":\"6497\",\"value\":\"000000800\"},{\"identifier\":\"6498\",\"value\":\"000000004\"},{\"identifier\":\"6499\",\"value\":\"000000000\"},{\"identifier\":\"6500\",\"value\":\"000003729\"}]}]}]}}},{\"name\":\"Raw_Segments_DAI_2\",\"response\":{\"confidence\":1.0,\"predicted_Raw_Segment\":\"J\"}},{\"name\":\"Treatment_DAI_5\",\"response\":{\"confidence\":1.0,\"predicted_Treatment\":\"1 - Approved\"}},{\"name\":\"Segment_DAI_3\",\"response\":{\"predicted_Segment\":\"Segment_1\",\"confidence\":1.0}},{\"name\":\"flexcar_scoring_challenger_1023_2\",\"response\":{\"flexcar_h2o_model\":\"0.9999657201127682\"}},{\"name\":\"Footprint\",\"response\":{\"document_drivers_license_dob\":\"1991-12-21\",\"id_email\":\"shashank.mishra1491@outlook.com\",\"document_permit_issued_at\":null,\"id_state\":\"MA\",\"document_visa_issued_at\":null,\"document_permit_document_number\":null,\"id_zip\":\"01801\",\"document_id_card_gender\":null,\"document_visa_document_number\":null,\"document_visa_expires_at\":null,\"document_residence_document_expires_at\":null,\"document_id_card_document_number\":null,\"document_drivers_license_issuing_country\":\"US\",\"document_permit_gender\":null,\"document_passport_gender\":null,\"document_residence_document_full_name\":null,\"document_id_card_issuing_state\":null,\"document_permit_expires_at\":null,\"document_passport_dob\":null,\"document_passport_issuing_state\":null,\"document_visa_issuing_country\":null,\"id_ssn9\":null,\"document_drivers_license_issuing_state\":\"MASSACHUSETTS\",\"document_residence_document_nationality\":null,\"document_visa_dob\":null,\"document_residence_document_document_number\":null,\"document_residence_document_gender\":null,\"document_visa_gender\":null,\"document_drivers_license_full_address\":\"2 KIMBALL CT APT 405 WOBURN MA 018016911 USA\",\"document_passport_full_address\":null,\"document_permit_nationality\":null,\"document_passport_full_name\":null,\"document_residence_document_issuing_state\":null,\"document_id_card_full_address\":null,\"document_residence_document_full_address\":null,\"document_passport_issued_at\":null,\"document_permit_dob\":null,\"document_id_card_full_name\":null,\"document_permit_issuing_state\":null,\"document_passport_expires_at\":null,\"id_country\":\"US\",\"id_address_line2\":null,\"document_permit_issuing_country\":null,\"document_residence_document_issued_at\":null,\"document_visa_issuing_state\":null,\"document_residence_document_dob\":null,\"document_passport_nationality\":null,\"document_drivers_license_document_number\":\"SA9640472\",\"document_drivers_license_nationality\":null,\"id_city\":\"Woburn\",\"document_residence_document_issuing_country\":null,\"id_phone_number\":\"+17812269930\",\"document_passport_issuing_country\":null,\"document_id_card_dob\":null,\"id_middle_name\":null,\"document_drivers_license_gender\":\"M\",\"id_ssn4\":null,\"document_visa_nationality\":null,\"document_id_card_issued_at\":null,\"id_address_line1\":\"2 Kimball Ct\",\"id_last_name\":\"MISHRA\",\"document_id_card_expires_at\":null,\"document_permit_full_address\":null,\"document_drivers_license_issued_at\":\"2023-10-12\",\"document_visa_full_address\":null,\"document_drivers_license_expires_at\":\"2027-12-21\",\"document_id_card_nationality\":null,\"document_permit_full_name\":null,\"document_id_card_issuing_country\":null,\"id_dob\":\"1991-12-21\",\"document_drivers_license_full_name\":\"SHASHANK MISHRA\",\"id_first_name\":\"SHASHANK\",\"document_visa_full_name\":null,\"document_passport_document_number\":null}},{\"name\":\"SentiLink_ID\",\"response\":{\"application\":{\"first_name\":\"SHASHANK\",\"last_name\":\"MISHRA\",\"dob\":\"1991-12-21\",\"ssn\":\"857-26-4818\",\"city\":\"Woburn\",\"state_code\":\"MA\"},\"environment\":\"PROD\",\"latency_ms\":80,\"timestamp\":\"2023-10-27T00:01:18.454078951Z\",\"transaction_id\":\"01HDQ6YV-H5YH-HZVW0NMP\",\"updated_fields\":[\"ssn\"],\"confidence_level\":\"very_high\"}},{\"name\":\"SentilinkApplicationV2\",\"response\":{\"application_id\":\"d8f1dd95-4c2f-480a-8ceb-5280146825bc\",\"customer_id\":\"01H1CPH40PEGMMC763HYZAYJEE\",\"environment\":\"PROD\",\"first_party_fraud_flags\":{\"flags\":[{\"flag_name\":\"sentilink_serial_disputer_flag\",\"flag_value\":false,\"flag_version\":\"1.0.0\",\"metadata\":{}},{\"flag_name\":\"sentilink_auth_user_purchaser_flag\",\"flag_value\":false,\"flag_version\":\"1.0.0\",\"metadata\":{}},{\"flag_name\":\"sentilink_auth_user_purchaser_flag\",\"flag_value\":false,\"flag_version\":\"2.0.0\",\"metadata\":{}}]},\"latency_ms\":285,\"response_status\":\"SUCCESS\",\"sentilink_id_theft_score\":{\"reason_codes\":[{\"code\":\"R034\",\"direction\":\"less_fraudy\",\"explanation\":\"Length of history of the email\",\"rank\":1},{\"code\":\"R022\",\"direction\":\"more_fraudy\",\"explanation\":\"Whether the email domain or structure of the handle are suspicious\",\"rank\":2},{\"code\":\"R028\",\"direction\":\"less_fraudy\",\"explanation\":\"Whether there is unusual geographic activity associated with the phone number\",\"rank\":3}],\"score\":260,\"version\":\"1.6.5\"},\"timestamp\":\"2023-10-27T00:01:19.053048045Z\",\"transaction_id\":\"01HDQ6YV-XFT4-RVQNE7W4\"}}],\"errors\":[],\"status\":\"PROCESSED\",\"outputs\":{\"variables\":{\"creditScore\":798,\"keyFactors\":[{\"code\":\"00068\",\"statement\":\"Lack of real estate secured loan information\"},{\"code\":\"00028\",\"statement\":\"Average credit limit on open bankcards is too low\"},{\"code\":\"00025\",\"statement\":\"Too high proportion of balances from bankcards\"},{\"code\":\"00032\",\"statement\":\"Oldest bankcard was opened too recently\"}],\"creditReportDate\":\"10262023\",\"override\":false,\"workflowVersion\":38,\"pricingLimit\":10000,\"Attribute_05149_6438\":9996,\"Attribute_05637_2017\":0},\"version\":38,\"decisions\":{\"decision\":\"Approve\"}}}
+{
+    "integrations": [
+        {
+            "name": "Segment_DAI_3",
+            "response": {
+                "predicted_Segment": "Segment_3",
+                "confidence": 1.0
+            }
+        },
+        {
+            "name": "SentilinkApplicationV2",
+            "response": {
+                "application_id": "9c3cd368-eeca-4f16-b6d7-0391daab9520",
+                "customer_id": "01H1CPH40PEGMMC763HYZAYJEE",
+                "environment": "PROD",
+                "first_party_fraud_flags": {
+                    "flags": [
+                        {
+                            "flag_name": "sentilink_serial_disputer_flag",
+                            "flag_value": false,
+                            "flag_version": "1.0.0",
+                            "metadata": {}
+                        },
+                        {
+                            "flag_name": "sentilink_auth_user_purchaser_flag",
+                            "flag_value": false,
+                            "flag_version": "1.0.0",
+                            "metadata": {}
+                        },
+                        {
+                            "flag_name": "sentilink_auth_user_purchaser_flag",
+                            "flag_value": false,
+                            "flag_version": "2.0.0",
+                            "metadata": {}
+                        }
+                    ]
+                },
+                "latency_ms": 191,
+                "response_status": "SUCCESS",
+                "sentilink_id_theft_score": {
+                    "reason_codes": [
+                        {
+                            "code": "R034",
+                            "direction": "less_fraudy",
+                            "explanation": "Length of history of the email",
+                            "rank": 1
+                        },
+                        {
+                            "code": "R025",
+                            "direction": "less_fraudy",
+                            "explanation": "Whether the email has had suspicious application activity",
+                            "rank": 2
+                        },
+                        {
+                            "code": "R029",
+                            "direction": "less_fraudy",
+                            "explanation": "Whether the applicant appears to be the best owner of the phone",
+                            "rank": 3
+                        }
+                    ],
+                    "score": 163,
+                    "version": "1.6.5"
+                },
+                "timestamp": "2023-10-26T18:34:12.011379476Z",
+                "transaction_id": "01HDPM7W-ZBS0-HHPXDRX3"
+            }
+        },
+        {
+            "name": "Decision_Segment_DAI_4",
+            "response": {
+                "predicted_Decision_Segment": "T",
+                "confidence": 1.0
+            }
+        },
+        {
+            "name": "Equifax",
+            "response": {
+                "status": "completed",
+                "consumers": {
+                    "equifaxUSConsumerCreditReport": [
+                        {
+                            "identifier": "Individual Report 1",
+                            "customerNumber": "178AZ11398",
+                            "consumerReferralCode": "025",
+                            "multipleReportIndicator": "F",
+                            "ECOAInquiryType": "I",
+                            "outputFormatCode": "T2",
+                            "hitCode": {
+                                "code": "1"
+                            },
+                            "fileSinceDate": "02272017",
+                            "lastActivityDate": "10172023",
+                            "reportDate": "10262023",
+                            "subjectName": {
+                                "firstName": "DENZEL",
+                                "lastName": "BYRD",
+                                "middleName": "D"
+                            },
+                            "subjectSocialNum": "590334854",
+                            "birthDate": "05071993",
+                            "addressDiscrepancyIndicator": "N",
+                            "addresses": [
+                                {
+                                    "addressType": "current",
+                                    "houseNumber": "102",
+                                    "streetName": "ASHLEY CREST",
+                                    "streetType": "DR",
+                                    "cityName": "COLUMBIA",
+                                    "stateAbbreviation": "SC",
+                                    "zipCode": "29229",
+                                    "sourceOfAddress": {
+                                        "code": "T"
+                                    },
+                                    "addressLine1": "102 ASHLEY CREST DR"
+                                },
+                                {
+                                    "addressType": "former",
+                                    "houseNumber": "2961",
+                                    "streetName": "NW 25TH",
+                                    "streetType": "ST",
+                                    "cityName": "FORT LAUDERDALE",
+                                    "stateAbbreviation": "FL",
+                                    "zipCode": "33311",
+                                    "sourceOfAddress": {
+                                        "code": "C"
+                                    },
+                                    "addressLine1": "2961 NW 25TH ST"
+                                }
+                            ],
+                            "employments": [
+                                {
+                                    "identifier": "current",
+                                    "employer": "MOC MID-ATLANTIC",
+                                    "dateLastReported": "082023",
+                                    "dateFirstReported": "052023"
+                                },
+                                {
+                                    "identifier": "former",
+                                    "employer": "ADAPTHEALTH",
+                                    "dateLastReported": "082022",
+                                    "dateFirstReported": "102021"
+                                },
+                                {
+                                    "identifier": "secondFormer",
+                                    "employer": "FEDEX",
+                                    "dateLastReported": "022020",
+                                    "dateFirstReported": "102019"
+                                }
+                            ],
+                            "trades": [
+                                {
+                                    "customerNumber": "155FP33540",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "15",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "thirtyDayCounter": 1,
+                                    "sixtyDayCounter": 1,
+                                    "ninetyDayCounter": 0,
+                                    "previousHighRate1": 3,
+                                    "previousHighDate1": "022023",
+                                    "previousHighRate2": 2,
+                                    "previousHighDate2": "012023",
+                                    "customerName": "FEB/OPPLNS",
+                                    "dateReported": "092023",
+                                    "dateOpened": "062022",
+                                    "highCredit": 1073,
+                                    "balance": 1073,
+                                    "pastDueAmount": 1073,
+                                    "rate": {
+                                        "code": 9
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "DB"
+                                        },
+                                        {
+                                            "code": "IZ"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "DB",
+                                        "IZ"
+                                    ],
+                                    "lastActivityDate": "012023"
+                                },
+                                {
+                                    "customerNumber": "155BB03747",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "35",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "thirtyDayCounter": 2,
+                                    "sixtyDayCounter": 2,
+                                    "ninetyDayCounter": 8,
+                                    "previousHighRate1": 5,
+                                    "previousHighDate1": "072023",
+                                    "previousHighRate2": 5,
+                                    "previousHighDate2": "062023",
+                                    "previousHighRate3": 5,
+                                    "previousHighDate3": "052023",
+                                    "customerName": "DISCOVER",
+                                    "dateReported": "102023",
+                                    "dateOpened": "112020",
+                                    "highCredit": 1772,
+                                    "balance": 1772,
+                                    "pastDueAmount": 1772,
+                                    "rate": {
+                                        "code": 9
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "DB"
+                                        },
+                                        {
+                                            "code": "FE"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "DB",
+                                        "FE"
+                                    ],
+                                    "lastActivityDate": "102022"
+                                },
+                                {
+                                    "customerNumber": "046FY00013",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "01",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "customerName": "LVNVFUNDG",
+                                    "dateReported": "102023",
+                                    "dateOpened": "072023",
+                                    "highCredit": 985,
+                                    "balance": 985,
+                                    "pastDueAmount": 985,
+                                    "rate": {
+                                        "code": 5
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "CZ"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "CZ"
+                                    ],
+                                    "lastActivityDate": "122022"
+                                },
+                                {
+                                    "customerNumber": "163ZF00124",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "03",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "customerName": "KIKOFF",
+                                    "dateReported": "092023",
+                                    "dateOpened": "062023",
+                                    "highCredit": 2500,
+                                    "balance": 200,
+                                    "rate": {
+                                        "code": 1
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "AV"
+                                        },
+                                        {
+                                            "code": "AZ"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "AV",
+                                        "AZ"
+                                    ],
+                                    "lastActivityDate": "092023"
+                                },
+                                {
+                                    "customerNumber": "163ZF00124",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "02",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "customerName": "KIKOFF",
+                                    "dateReported": "092023",
+                                    "dateOpened": "072023",
+                                    "highCredit": 120,
+                                    "balance": 100,
+                                    "rate": {
+                                        "code": 1
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "EE"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "EE"
+                                    ],
+                                    "lastActivityDate": "092023"
+                                },
+                                {
+                                    "customerNumber": "436BB00879",
+                                    "automatedUpdateIndicator": "*",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "customerName": "SBNASLFLDR",
+                                    "dateReported": "092023",
+                                    "dateOpened": "092023",
+                                    "highCredit": 724,
+                                    "balance": 724,
+                                    "rate": {
+                                        "code": 1
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "EE"
+                                        },
+                                        {
+                                            "code": "EP"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "EE",
+                                        "EP"
+                                    ],
+                                    "lastActivityDate": "092023"
+                                },
+                                {
+                                    "customerNumber": "616ON05498",
+                                    "monthsReviewed": "12",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "thirtyDayCounter": 2,
+                                    "sixtyDayCounter": 0,
+                                    "ninetyDayCounter": 4,
+                                    "previousHighRate1": 9,
+                                    "previousHighDate1": "062020",
+                                    "previousHighRate2": 9,
+                                    "previousHighDate2": "052020",
+                                    "previousHighRate3": 9,
+                                    "previousHighDate3": "042020",
+                                    "customerName": "FST PREMIE",
+                                    "dateReported": "062021",
+                                    "dateOpened": "072019",
+                                    "highCredit": 456,
+                                    "balance": 0,
+                                    "rate": {
+                                        "code": 9
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "IP"
+                                        },
+                                        {
+                                            "code": "BQ"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "IP",
+                                        "BQ"
+                                    ],
+                                    "lastActivityDate": "082019"
+                                },
+                                {
+                                    "customerNumber": "850BB01498",
+                                    "monthsReviewed": "40",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "thirtyDayCounter": 5,
+                                    "sixtyDayCounter": 3,
+                                    "ninetyDayCounter": 9,
+                                    "previousHighRate1": 9,
+                                    "previousHighDate1": "042020",
+                                    "previousHighRate2": 9,
+                                    "previousHighDate2": "032020",
+                                    "previousHighRate3": 9,
+                                    "previousHighDate3": "022020",
+                                    "customerName": "CAP ONE",
+                                    "dateReported": "062021",
+                                    "dateOpened": "022017",
+                                    "highCredit": 468,
+                                    "balance": 0,
+                                    "rate": {
+                                        "code": 9
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "BQ"
+                                        },
+                                        {
+                                            "code": "CW"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "BQ",
+                                        "CW"
+                                    ],
+                                    "lastActivityDate": "092019"
+                                },
+                                {
+                                    "customerNumber": "155FP33540",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "04",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "customerName": "FEB/OPPLNS",
+                                    "dateReported": "072022",
+                                    "dateOpened": "032022",
+                                    "highCredit": 1499,
+                                    "balance": 0,
+                                    "rate": {
+                                        "code": 1
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "FA"
+                                        },
+                                        {
+                                            "code": "CE"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "FA",
+                                        "CE"
+                                    ],
+                                    "lastActivityDate": "052022"
+                                },
+                                {
+                                    "customerNumber": "155FP33540",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "05",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "customerName": "FEB/OPPLNS",
+                                    "dateReported": "052022",
+                                    "dateOpened": "122021",
+                                    "highCredit": 1500,
+                                    "balance": 0,
+                                    "rate": {
+                                        "code": 1
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "FA"
+                                        },
+                                        {
+                                            "code": "CE"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "FA",
+                                        "CE"
+                                    ],
+                                    "lastActivityDate": "032022"
+                                },
+                                {
+                                    "customerNumber": "155FP33540",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "06",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "customerName": "FEB/OPPLNS",
+                                    "dateReported": "022022",
+                                    "dateOpened": "072021",
+                                    "highCredit": 1300,
+                                    "balance": 0,
+                                    "rate": {
+                                        "code": 1
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "FA"
+                                        },
+                                        {
+                                            "code": "CE"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "FA",
+                                        "CE"
+                                    ],
+                                    "lastActivityDate": "122021"
+                                },
+                                {
+                                    "customerNumber": "155FP33540",
+                                    "automatedUpdateIndicator": "*",
+                                    "monthsReviewed": "07",
+                                    "accountDesignator": {
+                                        "code": "I"
+                                    },
+                                    "customerName": "FEB/OPPLNS",
+                                    "dateReported": "092021",
+                                    "dateOpened": "022021",
+                                    "highCredit": 1300,
+                                    "balance": 0,
+                                    "rate": {
+                                        "code": 1
+                                    },
+                                    "narrativeCodes": [
+                                        {
+                                            "code": "FA"
+                                        },
+                                        {
+                                            "code": "CE"
+                                        }
+                                    ],
+                                    "rawNarrativeCodes": [
+                                        "FA",
+                                        "CE"
+                                    ],
+                                    "lastActivityDate": "072021"
+                                }
+                            ],
+                            "inquiries": [
+                                {
+                                    "type": "fileInquiry",
+                                    "industryCode": "FP",
+                                    "inquiryDate": "05222023",
+                                    "customerNumber": "372FP00516",
+                                    "customerName": "CCF INTERMEDIATE HOL"
+                                },
+                                {
+                                    "type": "inquiry",
+                                    "industryCode": "AN",
+                                    "inquiryDate": "06302023",
+                                    "customerNumber": "164AN05203",
+                                    "customerName": "DODGELAND OF COLUMBI"
+                                },
+                                {
+                                    "type": "inquiry",
+                                    "industryCode": "AN",
+                                    "inquiryDate": "06092022",
+                                    "customerNumber": "991AN72934",
+                                    "customerName": "COUGAR COLUMBIA H LL"
+                                }
+                            ],
+                            "models": [
+                                {
+                                    "type": "MODEL",
+                                    "modelNumber": "05402",
+                                    "score": 508,
+                                    "reasons": [
+                                        {
+                                            "code": "00068"
+                                        },
+                                        {
+                                            "code": "00037"
+                                        },
+                                        {
+                                            "code": "00003"
+                                        },
+                                        {
+                                            "code": "00030"
+                                        }
+                                    ],
+                                    "inquiryKeyFactor": {
+                                        "code": "Y"
+                                    },
+                                    "modelIDOrScorecard": "4",
+                                    "scoreNumberOrMarketMaxIndustryCode": {
+                                        "code": "1"
+                                    }
+                                },
+                                {
+                                    "type": "MODEL",
+                                    "modelNumber": "05637",
+                                    "score": 0,
+                                    "modelIDOrScorecard": "0",
+                                    "scoreNumberOrMarketMaxIndustryCode": {
+                                        "code": "1"
+                                    }
+                                },
+                                {
+                                    "type": "MODEL",
+                                    "modelNumber": "05149",
+                                    "score": 0,
+                                    "modelIDOrScorecard": "1",
+                                    "scoreNumberOrMarketMaxIndustryCode": {
+                                        "code": "1"
+                                    }
+                                }
+                            ],
+                            "identification": {
+                                "subjectSocialNum": "590334854",
+                                "inquirySocialNum": "590334854"
+                            },
+                            "attributes": [
+                                {
+                                    "modelNumber": "05637"
+                                },
+                                {
+                                    "modelNumber": "05149",
+                                    "attributes": [
+                                        {
+                                            "identifier": "6001",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6002",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6003",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6004",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6005",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6006",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6007",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6008",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6009",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6010",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6011",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6012",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6013",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6014",
+                                            "value": "000000100"
+                                        },
+                                        {
+                                            "identifier": "6015",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6016",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6017",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6018",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6019",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6020",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6021",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6022",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6023",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6024",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6025",
+                                            "value": "000000067"
+                                        },
+                                        {
+                                            "identifier": "6026",
+                                            "value": "000000050"
+                                        },
+                                        {
+                                            "identifier": "6027",
+                                            "value": "000000067"
+                                        },
+                                        {
+                                            "identifier": "6028",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6029",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6030",
+                                            "value": "000000050"
+                                        },
+                                        {
+                                            "identifier": "6031",
+                                            "value": "000000067"
+                                        },
+                                        {
+                                            "identifier": "6032",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6033",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6034",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6035",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6036",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6037",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6038",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6039",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6040",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6041",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6042",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6043",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6044",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6045",
+                                            "value": "000000100"
+                                        },
+                                        {
+                                            "identifier": "6046",
+                                            "value": "000000100"
+                                        },
+                                        {
+                                            "identifier": "6047",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6048",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6049",
+                                            "value": "000000100"
+                                        },
+                                        {
+                                            "identifier": "6050",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6051",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6052",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6053",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6054",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6055",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6056",
+                                            "value": "000000024"
+                                        },
+                                        {
+                                            "identifier": "6057",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6058",
+                                            "value": "000000007-"
+                                        },
+                                        {
+                                            "identifier": "6059",
+                                            "value": "000000098"
+                                        },
+                                        {
+                                            "identifier": "6060",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6061",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6062",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6063",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6064",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6065",
+                                            "value": "000000035"
+                                        },
+                                        {
+                                            "identifier": "6066",
+                                            "value": "000000007"
+                                        },
+                                        {
+                                            "identifier": "6067",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6068",
+                                            "value": "000000002"
+                                        },
+                                        {
+                                            "identifier": "6069",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6070",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6071",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6072",
+                                            "value": "000000024"
+                                        },
+                                        {
+                                            "identifier": "6073",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6074",
+                                            "value": "000000017"
+                                        },
+                                        {
+                                            "identifier": "6075",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6076",
+                                            "value": "000000098"
+                                        },
+                                        {
+                                            "identifier": "6077",
+                                            "value": "000000000"
+                                        },
+                                        {
+                                            "identifier": "6078",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6079",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6080",
+                                            "value": "000000035"
+                                        },
+                                        {
+                                            "identifier": "6081",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6082",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6083",
+                                            "value": "000000002"
+                                        },
+                                        {
+                                            "identifier": "6084",
+                                            "value": "000000002"
+                                        },
+                                        {
+                                            "identifier": "6085",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6086",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6087",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6088",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6089",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6090",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6091",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6092",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6093",
+                                            "value": "000000002"
+                                        },
+                                        {
+                                            "identifier": "6094",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6095",
+                                            "value": "000000024-"
+                                        },
+                                        {
+                                            "identifier": "6096",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6097",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6098",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6099",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6100",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6101",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6102",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6103",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6104",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6105",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6106",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6107",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6108",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6109",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6110",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6111",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6112",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6113",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6114",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6115",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6116",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6117",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6118",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6119",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6120",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6121",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6122",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6123",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6124",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6125",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6126",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6127",
+                                            "value": "000000098"
+                                        },
+                                        {
+                                            "identifier": "6128",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6129",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6130",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6131",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6132",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6133",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6134",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6135",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6136",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6137",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6138",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6139",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6140",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6141",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6142",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6143",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6144",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6145",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6146",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6147",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6148",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6149",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6150",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6151",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6152",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6153",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6154",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6155",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6156",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6157",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6158",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6159",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6160",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6161",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6162",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6163",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6164",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6165",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6166",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6167",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6168",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6169",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6170",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6171",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6172",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6173",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6174",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6175",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6176",
+                                            "value": "000000091"
+                                        },
+                                        {
+                                            "identifier": "6177",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6178",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6179",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6180",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6181",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6182",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6183",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6184",
+                                            "value": "000000080"
+                                        },
+                                        {
+                                            "identifier": "6185",
+                                            "value": "000000080"
+                                        },
+                                        {
+                                            "identifier": "6186",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6187",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6188",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6189",
+                                            "value": "000001487"
+                                        },
+                                        {
+                                            "identifier": "6190",
+                                            "value": "000001487"
+                                        },
+                                        {
+                                            "identifier": "6191",
+                                            "value": "000000091"
+                                        },
+                                        {
+                                            "identifier": "6192",
+                                            "value": "000000049"
+                                        },
+                                        {
+                                            "identifier": "6193",
+                                            "value": "000000091"
+                                        },
+                                        {
+                                            "identifier": "6194",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6195",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6196",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6197",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6198",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6199",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6200",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6201",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6202",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6203",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6204",
+                                            "value": "000999998"
+                                        },
+                                        {
+                                            "identifier": "6205",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6206",
+                                            "value": "000000157-"
+                                        },
+                                        {
+                                            "identifier": "6207",
+                                            "value": "000001487"
+                                        },
+                                        {
+                                            "identifier": "6208",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6209",
+                                            "value": "000000049"
+                                        },
+                                        {
+                                            "identifier": "6210",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6211",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6212",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6213",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6214",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6215",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6216",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6217",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6218",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6219",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6220",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6221",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6222",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6223",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6224",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6225",
+                                            "value": "000000157-"
+                                        },
+                                        {
+                                            "identifier": "6226",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6227",
+                                            "value": "000000080"
+                                        },
+                                        {
+                                            "identifier": "6228",
+                                            "value": "000001157"
+                                        },
+                                        {
+                                            "identifier": "6229",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6230",
+                                            "value": "000000072"
+                                        },
+                                        {
+                                            "identifier": "6231",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6232",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6233",
+                                            "value": "000000116"
+                                        },
+                                        {
+                                            "identifier": "6234",
+                                            "value": "000000116"
+                                        },
+                                        {
+                                            "identifier": "6235",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6236",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6237",
+                                            "value": "000000487-"
+                                        },
+                                        {
+                                            "identifier": "6238",
+                                            "value": "000000920"
+                                        },
+                                        {
+                                            "identifier": "6239",
+                                            "value": "000000920"
+                                        },
+                                        {
+                                            "identifier": "6240",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6241",
+                                            "value": "000999998"
+                                        },
+                                        {
+                                            "identifier": "6242",
+                                            "value": "000000047"
+                                        },
+                                        {
+                                            "identifier": "6243",
+                                            "value": "000000033"
+                                        },
+                                        {
+                                            "identifier": "6244",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6245",
+                                            "value": "000000072"
+                                        },
+                                        {
+                                            "identifier": "6246",
+                                            "value": "000000072"
+                                        },
+                                        {
+                                            "identifier": "6247",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6248",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6249",
+                                            "value": "000000487-"
+                                        },
+                                        {
+                                            "identifier": "6250",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6251",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6252",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6253",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6254",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6255",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6256",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6257",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6258",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6259",
+                                            "value": "000000116"
+                                        },
+                                        {
+                                            "identifier": "6260",
+                                            "value": "000000092"
+                                        },
+                                        {
+                                            "identifier": "6261",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6262",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6263",
+                                            "value": "000000487-"
+                                        },
+                                        {
+                                            "identifier": "6264",
+                                            "value": "000000487-"
+                                        },
+                                        {
+                                            "identifier": "6265",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6266",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6267",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6268",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6269",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6270",
+                                            "value": "000000132"
+                                        },
+                                        {
+                                            "identifier": "6271",
+                                            "value": "000000117"
+                                        },
+                                        {
+                                            "identifier": "6272",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6273",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6274",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6275",
+                                            "value": "000001317"
+                                        },
+                                        {
+                                            "identifier": "6276",
+                                            "value": "000001173"
+                                        },
+                                        {
+                                            "identifier": "6277",
+                                            "value": "000000057"
+                                        },
+                                        {
+                                            "identifier": "6278",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6279",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6280",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6281",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6282",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6283",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6284",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6285",
+                                            "value": "000000117"
+                                        },
+                                        {
+                                            "identifier": "6286",
+                                            "value": "000000117"
+                                        },
+                                        {
+                                            "identifier": "6287",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6288",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6289",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6290",
+                                            "value": "000000318-"
+                                        },
+                                        {
+                                            "identifier": "6291",
+                                            "value": "000000173-"
+                                        },
+                                        {
+                                            "identifier": "6292",
+                                            "value": "000000173-"
+                                        },
+                                        {
+                                            "identifier": "6293",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6294",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6295",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6296",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6297",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6298",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6299",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6300",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6301",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6302",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6303",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6304",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6305",
+                                            "value": "000000132"
+                                        },
+                                        {
+                                            "identifier": "6306",
+                                            "value": "000000132"
+                                        },
+                                        {
+                                            "identifier": "6307",
+                                            "value": "000000117"
+                                        },
+                                        {
+                                            "identifier": "6308",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6309",
+                                            "value": "000000117"
+                                        },
+                                        {
+                                            "identifier": "6310",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6311",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6312",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6313",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6314",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6315",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6316",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6317",
+                                            "value": "000000173-"
+                                        },
+                                        {
+                                            "identifier": "6318",
+                                            "value": "000000173-"
+                                        },
+                                        {
+                                            "identifier": "6319",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6320",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6321",
+                                            "value": "000999996"
+                                        },
+                                        {
+                                            "identifier": "6322",
+                                            "value": "000999996"
+                                        },
+                                        {
+                                            "identifier": "6323",
+                                            "value": "000999996"
+                                        },
+                                        {
+                                            "identifier": "6324",
+                                            "value": "000000343"
+                                        },
+                                        {
+                                            "identifier": "6325",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6326",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6327",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6328",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6329",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6330",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6331",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6332",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6333",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6334",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6335",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6336",
+                                            "value": "000000077"
+                                        },
+                                        {
+                                            "identifier": "6337",
+                                            "value": "000000096"
+                                        },
+                                        {
+                                            "identifier": "6338",
+                                            "value": "000000007-"
+                                        },
+                                        {
+                                            "identifier": "6339",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6340",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6341",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6342",
+                                            "value": "000000001"
+                                        },
+                                        {
+                                            "identifier": "6343",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6344",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6345",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6346",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6347",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6348",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6349",
+                                            "value": "000000002"
+                                        },
+                                        {
+                                            "identifier": "6350",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6351",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6352",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6353",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6354",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6355",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6356",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6357",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6358",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6359",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6360",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6361",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6362",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6363",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6364",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6365",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6366",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6367",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6368",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6369",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6370",
+                                            "value": "000000995"
+                                        },
+                                        {
+                                            "identifier": "6371",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6372",
+                                            "value": "000999998"
+                                        },
+                                        {
+                                            "identifier": "6373",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6374",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6375",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6376",
+                                            "value": "000099995"
+                                        },
+                                        {
+                                            "identifier": "6377",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6378",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6379",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6380",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6381",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6382",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6383",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6384",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6385",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6386",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6387",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6388",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6389",
+                                            "value": "000999998"
+                                        },
+                                        {
+                                            "identifier": "6390",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6391",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6392",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6393",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6394",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6395",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6396",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6397",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6398",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6399",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6400",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6401",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6402",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6403",
+                                            "value": "000009995"
+                                        },
+                                        {
+                                            "identifier": "6404",
+                                            "value": "000001157"
+                                        },
+                                        {
+                                            "identifier": "6405",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6406",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6407",
+                                            "value": "000000092"
+                                        },
+                                        {
+                                            "identifier": "6408",
+                                            "value": "000000092"
+                                        },
+                                        {
+                                            "identifier": "6409",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6410",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6411",
+                                            "value": "000000487-"
+                                        },
+                                        {
+                                            "identifier": "6412",
+                                            "value": "000000048"
+                                        },
+                                        {
+                                            "identifier": "6413",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6414",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6415",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6416",
+                                            "value": "000000117"
+                                        },
+                                        {
+                                            "identifier": "6417",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6418",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6419",
+                                            "value": "000000091"
+                                        },
+                                        {
+                                            "identifier": "6420",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6421",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6422",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6423",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6424",
+                                            "value": "000000157-"
+                                        },
+                                        {
+                                            "identifier": "6425",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6426",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6427",
+                                            "value": "000000048"
+                                        },
+                                        {
+                                            "identifier": "6428",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6429",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6430",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6431",
+                                            "value": "000000132"
+                                        },
+                                        {
+                                            "identifier": "6432",
+                                            "value": "000000117"
+                                        },
+                                        {
+                                            "identifier": "6433",
+                                            "value": "000000173-"
+                                        },
+                                        {
+                                            "identifier": "6434",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6435",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6436",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6437",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6438",
+                                            "value": "000000200"
+                                        },
+                                        {
+                                            "identifier": "6439",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6440",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6441",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6442",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6443",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6444",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6445",
+                                            "value": "000000157-"
+                                        },
+                                        {
+                                            "identifier": "6446",
+                                            "value": "000000157-"
+                                        },
+                                        {
+                                            "identifier": "6447",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6448",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6449",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6450",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6451",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6452",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6453",
+                                            "value": "000999996"
+                                        },
+                                        {
+                                            "identifier": "6454",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6455",
+                                            "value": "000000072"
+                                        },
+                                        {
+                                            "identifier": "6456",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6457",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6458",
+                                            "value": "000999998"
+                                        },
+                                        {
+                                            "identifier": "6459",
+                                            "value": "000999998"
+                                        },
+                                        {
+                                            "identifier": "6460",
+                                            "value": "000000051"
+                                        },
+                                        {
+                                            "identifier": "6461",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6462",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6463",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6464",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6465",
+                                            "value": "000000145"
+                                        },
+                                        {
+                                            "identifier": "6466",
+                                            "value": "000000123"
+                                        },
+                                        {
+                                            "identifier": "6467",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6468",
+                                            "value": "000000145"
+                                        },
+                                        {
+                                            "identifier": "6469",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6470",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6471",
+                                            "value": "000000998"
+                                        },
+                                        {
+                                            "identifier": "6472",
+                                            "value": "000000317-"
+                                        },
+                                        {
+                                            "identifier": "6473",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6474",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6475",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6476",
+                                            "value": "000999996"
+                                        },
+                                        {
+                                            "identifier": "6477",
+                                            "value": "000999996"
+                                        },
+                                        {
+                                            "identifier": "6478",
+                                            "value": "000999996"
+                                        },
+                                        {
+                                            "identifier": "6479",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6480",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6481",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6482",
+                                            "value": "000099998"
+                                        },
+                                        {
+                                            "identifier": "6483",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6484",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6485",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6486",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6487",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6488",
+                                            "value": "000000149"
+                                        },
+                                        {
+                                            "identifier": "6489",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6490",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6491",
+                                            "value": "000099996"
+                                        },
+                                        {
+                                            "identifier": "6492",
+                                            "value": "000009996"
+                                        },
+                                        {
+                                            "identifier": "6493",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6494",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6495",
+                                            "value": "000001000"
+                                        },
+                                        {
+                                            "identifier": "6496",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6497",
+                                            "value": "000009998"
+                                        },
+                                        {
+                                            "identifier": "6498",
+                                            "value": "000000996"
+                                        },
+                                        {
+                                            "identifier": "6499",
+                                            "value": "000000092"
+                                        },
+                                        {
+                                            "identifier": "6500",
+                                            "value": "000000487-"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "flexcar_scoring_challenger_1023_2",
+            "response": {
+                "flexcar_h2o_model": "0.6025553168224806"
+            }
+        },
+        {
+            "name": "Footprint",
+            "response": {
+                "document_drivers_license_full_address": "102 ASHLEY CREST DR COLUMBIA SC 292299444 USA",
+                "document_permit_dob": null,
+                "document_passport_document_number": null,
+                "id_address_line1": "102 Ashley Crest Dr",
+                "document_id_card_issuing_state": null,
+                "document_residence_document_full_address": null,
+                "document_permit_expires_at": null,
+                "document_residence_document_issued_at": null,
+                "document_residence_document_nationality": null,
+                "document_visa_expires_at": null,
+                "document_drivers_license_dob": "1993-05-07",
+                "document_permit_nationality": null,
+                "document_visa_issued_at": null,
+                "document_permit_issuing_country": null,
+                "document_visa_gender": null,
+                "document_visa_nationality": null,
+                "id_phone_number": "+18647906240",
+                "document_drivers_license_issuing_state": "SOUTH_CAROLINA",
+                "document_id_card_document_number": null,
+                "document_residence_document_expires_at": null,
+                "id_city": "Columbia",
+                "document_residence_document_full_name": null,
+                "document_visa_full_name": null,
+                "id_ssn4": null,
+                "document_permit_document_number": null,
+                "document_drivers_license_issued_at": "2023-02-06",
+                "document_id_card_nationality": null,
+                "document_id_card_issued_at": null,
+                "document_passport_gender": null,
+                "id_zip": "29229",
+                "document_drivers_license_document_number": "106151545",
+                "document_passport_expires_at": null,
+                "id_country": "US",
+                "id_last_name": "BYRD",
+                "document_id_card_dob": null,
+                "document_visa_document_number": null,
+                "document_passport_full_address": null,
+                "id_dob": "1993-05-07",
+                "id_first_name": "DENZEL",
+                "document_passport_issuing_state": null,
+                "document_id_card_expires_at": null,
+                "document_passport_full_name": null,
+                "document_residence_document_issuing_state": null,
+                "document_visa_issuing_state": null,
+                "document_visa_dob": null,
+                "document_id_card_full_address": null,
+                "id_address_line2": null,
+                "id_middle_name": "DEVON ELISHA",
+                "document_passport_issued_at": null,
+                "document_drivers_license_gender": "M",
+                "document_permit_full_name": null,
+                "document_drivers_license_nationality": null,
+                "document_drivers_license_expires_at": "2031-02-06",
+                "document_permit_full_address": null,
+                "document_passport_dob": null,
+                "document_residence_document_gender": null,
+                "document_id_card_issuing_country": null,
+                "document_passport_issuing_country": null,
+                "document_visa_issuing_country": null,
+                "document_residence_document_dob": null,
+                "document_drivers_license_issuing_country": "US",
+                "document_visa_full_address": null,
+                "document_permit_issuing_state": null,
+                "id_email": "d26byrd@gmail.com",
+                "document_residence_document_document_number": null,
+                "document_id_card_gender": null,
+                "document_drivers_license_full_name": "DENZEL DEVON ELISHA BYRD",
+                "document_id_card_full_name": null,
+                "document_permit_issued_at": null,
+                "id_ssn9": null,
+                "document_passport_nationality": null,
+                "document_permit_gender": null,
+                "document_residence_document_issuing_country": null,
+                "id_state": "SC"
+            }
+        },
+        {
+            "name": "SentiLink_ID",
+            "response": {
+                "application": {
+                    "first_name": "DENZEL",
+                    "last_name": "BYRD",
+                    "dob": "1993-05-07",
+                    "ssn": "590-33-4854",
+                    "city": "Columbia",
+                    "state_code": "SC"
+                },
+                "environment": "PROD",
+                "latency_ms": 72,
+                "timestamp": "2023-10-26T18:34:11.484907279Z",
+                "transaction_id": "01HDPM7W-JMTN-FYRZPEQN",
+                "updated_fields": [
+                    "ssn"
+                ],
+                "confidence_level": "very_high"
+            }
+        },
+        {
+            "name": "Raw_Segments_DAI_2",
+            "response": {
+                "confidence": 1.0,
+                "predicted_Raw_Segment": "H"
+            }
+        }
+    ],
+    "errors": [],
+    "status": "PROCESSED",
+    "outputs": {
+        "variables": {
+            "creditScore": 508,
+            "keyFactors": [
+                {
+                    "code": "00068",
+                    "statement": "Lack of real estate secured loan information"
+                },
+                {
+                    "code": "00037",
+                    "statement": "No open bankcards in your credit file"
+                },
+                {
+                    "code": "00003",
+                    "statement": "Average time since accounts opened is too recent"
+                },
+                {
+                    "code": "00030",
+                    "statement": "Too few open revolving accounts"
+                }
+            ],
+            "creditReportDate": "10262023",
+            "override": false,
+            "workflowVersion": 38,
+            "pricingLimit": 500,
+            "Attribute_05149_6438": 200,
+            "Attribute_05637_2017": 0
+        },
+        "version": 38,
+        "decisions": {
+            "decision": "Deny"
+        }
+    }
+}
